@@ -1,0 +1,4 @@
+test_data_pytorch/
+training_data_pytorch/
+validation_data_pytorch/
+*.csv
