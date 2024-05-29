@@ -21,11 +21,11 @@ The applications of this project are vast and impactful. Here are a few key ones
 
 ## Methodology:
 1. **Data Collection and Preprocessing**:
-   - Gather a diverse dataset of Euro banknote images. Each image should be labeled with its corresponding denomination (e.g., 5 EUR, 10 EUR, etc.).
+   - A diverse dataset of Euro banknote images were gathered. Each note  labeled with its corresponding denomination 5 EUR, 10 EUR, 20 EUR, 50 EUR, 100 EUR, 200 EUR and 500 EUR).
    - Preprocess the images by resizing, normalizing, and augmenting them to enhance model robustness.
 
 2. **Transfer Learning with Pretrained CNNs**:
-   - Utilize a pretrained CNN (such as ResNet, VGG, or MobileNet) as the backbone of our model.
+   - A pretrained CNN (in this case Resnet18) was utilize as the backbone of our model.
    - Remove the final classification layer and replace it with a custom output layer specific to Euro banknote classes.
    - Fine-tune the network on our dataset to adapt it to the task.
 
