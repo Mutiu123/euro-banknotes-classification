@@ -21,7 +21,7 @@ The applications of this project are vast and impactful. Here are a few key ones
 
 ## Methodology:
 1. **Data Collection and Preprocessing**:
-   - A diverse dataset of Euro banknote images were gathered. Each note  labeled with its corresponding denomination 5 EUR, 10 EUR, 20 EUR, 50 EUR, 100 EUR, 200 EUR and 500 EUR).
+   - A diverse dataset of Euro banknote images were gathered. Each note  labeled with its corresponding denominations (5 EUR, 10 EUR, 20 EUR, 50 EUR, 100 EUR, 200 EUR and 500 EUR).
    - Preprocess the images by resizing, normalizing, and augmenting them to enhance model robustness.
 
 2. **Transfer Learning with Pretrained CNNs**:
